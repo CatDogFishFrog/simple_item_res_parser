@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tkinter.Frame xmlns:attr="http://www.hoversetformationstudio.com/styles/" xmlns:layout="http://www.hoversetformationstudio.com/layouts/" name="Frame_1" attr:layout="place" layout:width="484" layout:height="123" layout:x="30" layout:y="30">
+  <meta major="5" minor="0" name="version"/>
+  <tkinter.StringVar attr:name="PathVar" attr:value=""/>
+  <tkinter.ttk.Button name="Button_Path" attr:command="open_inp_path" attr:text="Обрати мод" layout:width="77" layout:height="25" layout:x="18" layout:y="14" layout:bordermode="outside"/>
+  <tkinter.ttk.Entry name="Entry_Path" attr:textvariable="PathVar" attr:cursor="ibeam" layout:width="365" layout:height="25" layout:x="103" layout:y="14" layout:bordermode="outside"/>
+  <tkinter.ttk.Label name="Label_Output" attr:anchor="nw" attr:text="Оберіть шлях до моду, який треба обробити на предмети або репепти,&#10;після чого натисніть відповідну кнопку" layout:width="450" layout:height="42" layout:x="18" layout:y="45" layout:bordermode="outside"/>
+  <tkinter.ttk.Button name="Button_Items" attr:command="button_parse_items" attr:text="Знайти Предмети" layout:width="110" layout:height="27" layout:x="18" layout:y="90" layout:bordermode="outside"/>
+  <tkinter.ttk.Button name="Button_Recipe" attr:command="button_parse_recipe" attr:text="Знайти Рецепти" layout:width="110" layout:height="27" layout:x="351" layout:y="90" layout:bordermode="outside"/>
+</tkinter.Frame>
